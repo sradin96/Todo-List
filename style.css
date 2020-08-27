@@ -143,6 +143,7 @@ select {
   header {
     font-size: 1rem;
   }
+
   form input,
   form button {
     font-size: 1.5rem;
@@ -153,5 +154,25 @@ select {
   }
   select {
     width: 6rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  header {
+    font-size: 1rem;
+  }
+  form input,
+  form button {
+    font-size: 1.5rem;
+  }
+  form input {
+    width: 400px;
+  }
+  form button {
+    margin-right: 1rem;
+  }
+  .select {
+    position: absolute;
+    top: 15%;
   }
 }
